@@ -25,7 +25,7 @@ resource "cloudflare_zone_settings_override" "com-settings" {
 #     }
 #   }
 #   action {
-#     mode    = "simulate"
+#     mode    = "simulate" # CHANGE THIS TO BAN FOR ACTUAL USE
 #     timeout = 300
 #     response {
 #       content_type = "text/plain"
